@@ -4,6 +4,11 @@ compear ||| conditions
 
 // loop ///
 
+/// ----loop -----\\
+1 .condition inside 
+2. loop body 
+3. loop er man change - + 
+
 if condition akber kaj kore 
 r while akta kaj ber ber kore 
 
@@ -26,3 +31,21 @@ while (roastGiven < 7) {
 
  ai loop ro easy vabe dekher jonno 
  1st condition a gita  red dot a click kore run and debugg kore akta stape kore dakhle ro vlo kore bujha jay 
+
+
+
+ //// video 18.3-----------------------
+
+ akta condition diya onek result ki vabe ber korte hoi ta 
+
+ 
+let number = 0;
+
+while (number <= 20) {
+    console.log(number);
+    // number++;
+    number = number +2;
+
+}
+
+ai khane condition chnage kore just onek kisu kora jay //// odd  even ..
