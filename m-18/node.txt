@@ -1,0 +1,28 @@
+variable
+array 
+compear ||| conditions 
+
+// loop ///
+
+if condition akber kaj kore 
+r while akta kaj ber ber kore 
+
+increase 
+== 
+  boss = boss + 1 ;
+  boss +=1 ;
+boss ++;
+
+/// example //
+
+let roastGiven = 0;
+while (roastGiven < 7) {
+    console.log('vhaia roast den <:3');   // 1st condition
+    console.log(roastGiven);
+    roastGiven++;
+    
+}
+ aikhnae while use kora hoise akta condition ber ber run korer jono 
+
+ ai loop ro easy vabe dekher jonno 
+ 1st condition a gita  red dot a click kore run and debugg kore akta stape kore dakhle ro vlo kore bujha jay 
