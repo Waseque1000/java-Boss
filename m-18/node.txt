@@ -6,7 +6,7 @@ compear ||| conditions
 
 /// ----loop -----\\
 1 .condition inside 
-2. loop body 
+2. loop body  log
 3. loop er man change - + 
 
 if condition akber kaj kore 
@@ -49,3 +49,54 @@ while (number <= 20) {
 }
 
 ai khane condition chnage kore just onek kisu kora jay //// odd  even ..
+
+
+///for loop 
+
+almost while loop 
+ but aita likher style kisuta vinno
+
+ 
+ //!   for loop
+//  for( var roastGiven = 0; roastGiven < 9 ; roastGiven++){
+//     console.log(' vhai roast den.....');
+
+//  }
+
+
+
+// ! simple version of for loop
+ /* console.log('simple for loop');
+ for (let i = 0; i < 8; i++) {
+   console.log(i);;
+    
+ } */
+
+
+
+ for (let i = 0; i <=   10; i++) {
+    console.log(i);
+    
+ }
+  *  for loop likhe oiter vitore ak line a sob condition dite hbe 
+  *  r variable ar name change kore dite hbe 
+
+
+
+///////////////////// array loops /////////////////////////////
+
+ akta array vitore thaka jinis guloke for loop a dekhanor jonno 
+
+
+var numbers = [45, 53, 67, 87, 81, 93]; /// 1st akta variable declear kore nite hbe 
+
+for( var i = 0; i < 6; i++){ /// condition
+    var number = numbers[i];  ///// this is the main line  ai khan akta vaeiable dita array [ ar vitore for lop ar man lkhte heb ]
+    console.log(number);
+}
+
+////////  array er vitore ro man oush kora holo oi man r output a show korabe na tai show koranor jonno 
+
+for( var i = 0; i < numbers.length ; i++){
+   sob kisui thik thakbe sidhu 
+    i < (er por variable.length hbe )
