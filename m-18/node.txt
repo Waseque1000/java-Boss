@@ -112,3 +112,38 @@ for(var i = 0; i < items.length; i++){
     var item = items[i];
     console.log(item);
 }
+
+
+
+////////  break ////////////////////
+
+
+var picnikFee = [ 45, 56, 2224, 67, 98, 60,234,60, 41]
+for (var i = 0; i < picnikFee.length; i++) {
+var num = picnikFee[i];
+if (num > 90) {
+    break;
+    
+}
+console.log(num);
+    
+}
+
+ai khane log er age preak dite hbe 
+ break ta if condition diya likhte hbe 
+
+asol khani holo 
+ if er condition er vitore 1st variable ka 2nd variable diya declear kora hoise oi ta die hbe 
+
+
+
+ ////////// continue///////////
+  break er mto almost same...
+  continue bolte bujhay = got to the nest../ skeap
+
+
+
+
+  /////Understand for and while loop in a reverse way///////
+
+  
