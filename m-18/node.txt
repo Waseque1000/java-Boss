@@ -181,3 +181,21 @@ asol khani holo
 
 
 
+/// summary
+summary 
+
+ while (condition ){
+	log();
+	mun ++;
+}
+
+
+ for( var i = 1; i < = 10; i++){
+	 log(i);
+	if( i > 5){
+	break;
+	}
+}
+
+
+reverse condition 
