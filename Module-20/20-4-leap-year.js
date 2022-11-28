@@ -1,11 +1,11 @@
 /* // function isLeapYear(year) {
-//   const reminder = year % 4;
-//   if (reminder === 0) {
-//     console.log("Your year is leap year ", year);
-//   } else {
-//     console.log("your year is naot a leap year ", year);
-//   }
-// }
+  const reminder = year % 4;
+  if (reminder === 0) {
+    console.log("Your year is leap year ", year);
+  } else {
+    console.log("your year is naot a leap year ", year);
+  }
+}
 
 // isLeapYear(1960);
 
