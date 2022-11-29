@@ -1,10 +1,28 @@
-// inche to feet
+// ! get sum from an array
 
-function incheToFeet(inche) {
-  const feet = inche / 12;
-  return feet;
-}
+// function getSumAddAray(vhai) {
+//   let sum = 0;
+//   for (let i = 0; i < vhai.length; i++) {
+//     const chad = i;
+//     const tara = vhai[chad];
+//     sum = sum + tara;
+//     console.log(chad, tara, sum);
+//   }
+//   return sum;
+// }
+// const neww = [32, 45, 234, 564, 132, 341, 354];
+// getSumAddAray(neww);
 
-const dadainche = 200;
-const dadafeet = incheToFeet(dadainche);
-console.log(dadafeet);
+// //! leap year
+
+// function isLeapYear(year) {
+//   const reminder = year % 4;
+//   if (reminder === 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// const findYear = isLeapYear(2020);
+// console.log(findYear);

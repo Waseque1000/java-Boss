@@ -1,0 +1,1 @@
+ Get Odd Numbers of an array and get odd Sum of an array
