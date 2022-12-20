@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tour Of Dom</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Welcome to my DOM</h1></header>
+    <main>
+      <section>
+        <h1>My Awesome DOM de baba</h1>
+        <ul>
+          <li>jalali set</li>
+          <li>Shafayet</li>
+          <li>Bonobas</li>
+        </ul>
+      </section>
+
+      <section class="fruits-con">
+        <h1 id="fruits-title">Fruits i like</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis
+          tempora libero, aut eum asperiores maxime at dicta. Aperiam, magnam
+          qui.
+        </p>
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Carrot</li>
+          <li>Mango</li>
+        </ul>
+      </section>
+      <section>
+        <h1 id="place">Place i like most</h1>
+        <ul>
+          <li class="vhai">Sundarban</li>
+          <li class="vhai">Kataban</li>
+          <li class="vhai">bandarban</li>
+          <li>salban</li>
+        </ul>
+      </section>
+    </main>
+    <script src="js/dom.js"></script>
+    <script>
+      //   console.log("inside the html file ");
+      //   console.log("Hellow DOM");
+      //   console.log(document);
+      //   const student = {
+      //     name: "abul",
+      //     id: 24,
+      //     study: function (time) {
+      //       console.log(time, "haa kortase ");
+      //     },
+      //     // study: "stude kortase but fail korbe mone hoy",
+      //   };
+      //   const liCollestion = document.getElementsByTagName("li");
+      //   //   console.log(liCollestion); // !  eita dile koita li ase oita dekha jay
+      //   //   console.log(liCollestion);
+      //   for (const li of liCollestion) {
+      //     console.log(li);
+      //     // console.log(li.innerText);
+
+      //     const allHeading = document.getElementsByTagName("h1");
+      //     console.log(allHeading);
+      //     for (const h1 of allHeading) {
+      //       console.log(h1);
+
+      const places = document.getElementsByClassName("vhai");
+      //   console.log(places);
+      for (const place of places) {
+        // console.log(place.innerText); // innertext dakher jonno for - of use korte hbe
+      }
+      // queary selector
+      const fruitsTitle = document.getElementById("fruits-title");
+      fruitsTitle.innerText = "fruits changrds by java "; // ai vabe title chabge kora jay
+      const someli = document.querySelectorAll(".fruits-con li ");
+      console.log(someli);
+      for (const allLi of someli) {
+        console.log(allLi.innerText);
+      }
+    </script>
+  </body>
+</html>

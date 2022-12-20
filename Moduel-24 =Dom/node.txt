@@ -1,0 +1,52 @@
+getElementByClass VS getElementByI
+
+
+// document.getElementById('place') 
+         => aita likhle oi select kora id show korbe 
+
+    # document.getElementById('place').innerText
+        ==> aita dile oi id er vitore inner text show korbe
+
+    # document.getElementById('place').innerText = "I am the boss"
+        ==> innerText er por ja likha hbe tai set hoye jbe 
+
+
+
+        // innertext er jonno 
+         const places = document.getElementsByClassName("vhai");
+     
+      for (const place of places) {
+        console.log(place.innerText); // innertext dakher jonno for - of use korte hbe 
+      }
+
+
+
+## 
+    
+      const fruitsTitle = document.getElementById("fruits-title");
+      fruitsTitle.innerText = "fruits changrds by java "; // ai vabe title chabge kora jay
+
+
+
+// ### video  24-4 
+ Traversing dom - getElementByQuerySelector, querySelectorAll
+
+ ## document.querySelectorAll('#fruits-title') aita dile css er mto class dite hbe 
+  class hole . 
+  r id hole #
+
+ ## r  akta section er vitore  jto gulo li ase oita dakher jonno 
+ document.querySelectorAll('.className li') aita likhte hbe
+
+
+ 
+      // queary selector
+      const fruitsTitle = document.getElementById("fruits-title");
+      fruitsTitle.innerText = "fruits changrds by java "; // ai vabe title chabge kora jay
+      const someli = document.querySelectorAll(".fruits-con li "); => all mane sob gulo dekhabe 
+      console.log(someli);
+      for (const allLi of someli) {
+        console.log(allLi.innerText);
+      }
+
+       ## document.querySelector(".fruits-con li ") ==> aita dile just 1st ta dekhabe 
