@@ -41,6 +41,8 @@ getElementByClass VS getElementByI
 
  
       // queary selector
+
+    ---------------------------
       const fruitsTitle = document.getElementById("fruits-title");
       fruitsTitle.innerText = "fruits changrds by java "; // ai vabe title chabge kora jay
       const someli = document.querySelectorAll(".fruits-con li "); => all mane sob gulo dekhabe 

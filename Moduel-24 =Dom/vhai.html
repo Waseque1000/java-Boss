@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practise</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="first">Vhai Dom niyq kisu kortasi</h1>
+      <ul>
+        <li class="vhai">Dhaka</li>
+        <li class="vhai">Chittagong</li>
+        <li class="vhai">Khulna</li>
+        <li class="vhai">Bandarban</li>
+        <li>Khagrachhari</li>
+      </ul>
+    </section>
+    <section class="table">
+      <ul>
+        <li>Books</li>
+        <li>Phone</li>
+        <li>Medicine</li>
+        <li>Notebook</li>
+        <li>Pen</li>
+      </ul>
+    </section>
+    <script>
+      //   const city = document.getElementsByClassName("vhai");
+      //   console.log(city);
+      //   for (const li of city) {
+      //     console.log(li.innerText);
+      //   }
+
+      const name = document.getElementById("first");
+      //   console.log(name.innerText);
+      const tableElement = document.querySelector(".table li  ");
+
+      console.log(tableElement);
+
+      for (const quary of tableElement) {
+        console.log(quary.innerText);
+      }
+    </script>
+  </body>
+</html>
