@@ -1,0 +1,33 @@
+// ## 25-1 What is Event, different types of event in web
+
+//  * Onclick holo emon akta jinis ja khane chick korle onclick er vitore ja likha thakbe oita show korbe
+
+// ? 25-2 Add onclick handler directly or via javascript
+
+<button onclick="document.body.style.backgroundColor='yellow'">
+  Make Yellow
+</button>;
+
+// ` kono button a kono kisu add korer jonno  2nd  way holo
+/*   js file er vitore akta function likhte hbe 
+  <script>
+  function makeRed(params) {
+    document.body.style.backgroundColor = "red";
+  }
+</script> */
+
+// pore oi button er  onclick  e rfunction call kore dite hb e
+
+
+// * part 3 
+ aita holo  id call kore 
+ new function er nam likhe dawya 
+
+// ! functio er nam likhte hbe just () aita use kore jbe na  aita use korte function auto matic kaj korbe 
+const makeBlueBtn = document.getElementById("make-blue");
+makeBlueBtn.onclick = makeBlue;
+function makeBlue() {
+  document.body.style.backgroundColor = "blue";
+}
+
+//  ! 25-3 Different ways to use addEventListener on a button
