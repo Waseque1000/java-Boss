@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub</title>
+  </head>
+  <body>
+    <h1>Explore More event</h1>
+    <button id="btn-more">Events</button>
+    <input type="text" id="text-fild" />
+    <script>
+      //   document
+      //     .getElementById("text-fild")
+      //     .addEventListener("focus", function name(params) {
+      //       console.log("eventlistener focus");
+      //     });
+      //   document
+      //     .getElementById("text-fild")
+      //     .addEventListener("blur", function name(params) {
+      //       console.log("eventlistener blure");
+      //     });
+      //   document
+      //     .getElementById("text-fild")
+      //     .addEventListener("keydown", function name(event) {
+      //       //   console.log(event);
+      //       console.log(event.target.value);
+      //     });
+      //   document
+      //     .getElementById("text-fild")
+      //     .addEventListener("keypress", function name(event) {
+      //       //   console.log(event);
+      //       console.log(event.target.value);
+      //     });
+      document
+        .getElementById("text-fild")
+        .addEventListener("keyup", function name(event) {
+          //   console.log(event);
+          console.log(event.target.value);
+        });
+      document
+        .getElementById("btn-more")
+        .addEventListener("mousemove", function name(params) {
+          console.log("kaj koretase ");
+        });
+    </script>
+  </body>
+</html>

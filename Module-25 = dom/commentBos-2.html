@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment box</title>
+  </head>
+  <body>
+    <h1>Please Add your comment</h1>
+    <div id="comment-container">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates,
+        quisquam voluptas. Optio quaerat consectetur culpa voluptatem, possimus
+        obcaecati? Facilis, praesentium!
+      </p>
+      <p>
+        Recusandae, voluptas esse. Reprehenderit aliquam necessitatibus sint
+        laboriosam ab magnam numquam odio quam! Explicabo non, maxime nobis est
+        hic sunt.
+      </p>
+      <p>
+        Deleniti vero aut quisquam eaque, commodi quis culpa? Minus obcaecati
+        qui tempora mollitia possimus quas explicabo numquam velit esse dicta!
+      </p>
+    </div>
+    <textarea name="" id="new-comment" cols="40" rows="5"></textarea> <br />
+    <button id="btn-post">Post</button>
+    <script>
+      document
+        .getElementById("btn-post")
+        .addEventListener("click", function (params) {
+          // console.log("vhai paisi"); ====> aita diye chaeak korer jonno
+          const commentBOx = document.getElementById("new-comment");
+          const newComment = commentBOx.value;
+          // console.log(newComment); --- > aituk porjonto kaj kortase kina ta dakher jonno
+
+          // set the coment inside   the comment container
+          // ==> get the comment container
+          // ==> creat a new element
+          // ==> set the text of the comment as the inner \text of the p tag
+          //  == > add the p tag using appendChild
+          const commentContainer = document.getElementById("comment-container");
+          const p = document.createElement("p");
+          p.innerText = newComment;
+          commentContainer.appendChild(p);
+
+          // clear the text area
+          commentBOx.value = " ";
+        });
+    </script>
+  </body>
+</html>

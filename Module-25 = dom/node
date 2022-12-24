@@ -1,33 +1,33 @@
-// ## 25-1 What is Event, different types of event in web
-
-//  * Onclick holo emon akta jinis ja khane chick korle onclick er vitore ja likha thakbe oita show korbe
-
-// ? 25-2 Add onclick handler directly or via javascript
+// ## 25-1 What is Event, different types of event in web // * Onclick holo emon
+akta jinis ja khane chick korle onclick er vitore ja likha thakbe oita show
+korbe // ? 25-2 Add onclick handler directly or via javascript
 
 <button onclick="document.body.style.backgroundColor='yellow'">
-  Make Yellow
-</button>;
-
-// ` kono button a kono kisu add korer jonno  2nd  way holo
-/*   js file er vitore akta function likhte hbe 
-  <script>
+  Make Yellow</button
+>; // ` kono button a kono kisu add korer jonno 2nd way holo /* js file er
+vitore akta function likhte hbe
+<script>
   function makeRed(params) {
     document.body.style.backgroundColor = "red";
   }
-</script> */
+</script>
+*/ // pore oi button er onclick e rfunction call kore dite hb e // * part 3 //
+aita holo id call kore // new function er nam likhe dawya // ! functio er nam
+likhte hbe just () aita use kore jbe na aita use korte function auto matic kaj
+korbe const makeBlueBtn = document.getElementById("make-blue");
+makeBlueBtn.onclick = makeBlue; function makeBlue() {
+document.body.style.backgroundColor = "blue"; } // ! 25-3 Different ways to use
+addEventListener on a button //
+---------------------------------------------------------------- // * 25-4 Most
+common ways to set Event Handlers
+<h3 id="handler-status">Surprise</h3>
+<button id="add" onclick="handenOnclick()">Click here to know</button>
 
-// pore oi button er  onclick  e rfunction call kore dite hb e
-
-
-// * part 3 
- aita holo  id call kore 
- new function er nam likhe dawya 
-
-// ! functio er nam likhte hbe just () aita use kore jbe na  aita use korte function auto matic kaj korbe 
-const makeBlueBtn = document.getElementById("make-blue");
-makeBlueBtn.onclick = makeBlue;
-function makeBlue() {
-  document.body.style.backgroundColor = "blue";
-}
-
-//  ! 25-3 Different ways to use addEventListener on a button
+function handenOnclick(params) { const handlerStatus =
+document.getElementById("handler-status"); handlerStatus.innerText = "Vhai re
+vhai onek pera aita "; } aita holo akta but er function a
+<h3></h3>
+er id add kore akta event add korse // button click korle uporer likha change
+hoye jbe //? 25-5 Create a comment box and display comment /// 25-6 Simple
+github like delete confirmation button...
+----------------------------------------------------------------

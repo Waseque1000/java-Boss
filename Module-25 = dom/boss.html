@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finam dom</title>
+  </head>
+  <body>
+    <h1>Final Dom event</h1>
+    <h3 id="handeler-status">Default Text  </h3>
+
+    <p id="input-text-display">Dafoult text</p>
+    <input id="input-fild" type="text">
+    <button id="btn-update">Update</button>
+    <br> <br>
+    <button onclick=" handelOnCLick()">
+      Handel Event by Add ONclick Function
+    </button>
+    <button id="Event-listener"> Handle Event addEvent listener</button>
+
+
+
+
+
+
+
+
+
+
+    <script>
+      // btn a click korle uporer likha change hoye jbe 
+      function handelOnCLick(params) {
+         const handelerSatus = document.getElementById('handeler-status');
+         handelerSatus.innerText='Haldeled By function on click attribute '
+      }
+
+      // option 2 
+      
+
+      document.getElementById('Event-listener').addEventListener('click',function name(params) {
+        const handelerSatus=document.getElementById('handeler-status');
+        handelerSatus.innerText ='Text updat by add event listener Button '
+        
+      })
+
+
+
+      //option 2 recap  -===> input er kaj 
+      document.getElementById('btn-update').addEventListener('click',function name(params) {
+        // console.log('vhai update ki paisen '); aita cheak korer jonnno 
+        const inputFild  = document.getElementById('input-fild');
+        // console.log(inputFild.value); eii valur likher jonno input a ja likhbo oita show korbe 
+         const inputText = inputFild.value;
+
+          const p =document.getElementById('input-text-display')
+          p.innerText = inputText;
+          inputFild.value = "";
+      })
+    </script>
+  </body>
+</html>

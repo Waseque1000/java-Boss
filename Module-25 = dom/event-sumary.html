@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Dom</title>
+  </head>
+  <body>
+    <h1>Final Dom Event Handeler</h1>
+    <h3 id="handler-status">Surprise</h3>
+    <p id="p-input">Default Input Text</p>
+    <input id="input" type="text" />
+    <button id="btn-update">Update</button>
+    <br />
+    <br />
+    <button id="add" onclick="handenOnclick()">Click here to know</button>
+    <button id="event-lisener">Handle event by addEventListener</button>
+    <script>
+      function handenOnclick(params) {
+        const handlerStatus = document.getElementById("handler-status");
+        handlerStatus.innerText = "Vhai re vhai onek pera aita ";
+      }
+
+      // option 2
+      document
+        .getElementById("event-lisener")
+        .addEventListener("click", function name(params) {
+          const handelStatus = document.getElementById("handler-status");
+          handelStatus.innerText = "surprice kisui nai ";
+        });
+
+      //  !  option 2 recap
+      document
+        .getElementById("btn-update")
+        .addEventListener("click", function (params) {
+          const inputFild = document.getElementById("input");
+          //   console.log(inputFild.value); // input er man show korer jonno .value use korte hbe
+          const inputText = inputFild.value;
+          const p = document.getElementById("p-input");
+          p.innerText = inputFild;
+        });
+    </script>
+  </body>
+</html>
