@@ -52,3 +52,19 @@ getElementByClass VS getElementByI
       }
 
        ## document.querySelector(".fruits-con li ") ==> aita dile just 1st ta dekhabe 
+
+    
+
+ ### 24-5 Dynamic style, getAttribute, setAttribute, innerText, innerHTML
+ --------------------------------------------------------------------------------
+
+
+
+ // ### 24-6 Styling dom properties, add and remove css class using JS
+
+ 
+
+ ### 24-7 NodeList, htmlcollection, parentNode, childnodes, createElement
+
+
+ ## 24-8 Create HTML elements using Javascript and appendChild

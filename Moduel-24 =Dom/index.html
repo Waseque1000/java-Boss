@@ -9,8 +9,8 @@
   </head>
   <body>
     <header><h1>Welcome to my DOM</h1></header>
-    <main>
-      <section>
+    <main id="main">
+      <section class="song" id="song">
         <h1>My Awesome DOM de baba</h1>
         <ul>
           <li>jalali set</li>
@@ -33,17 +33,20 @@
           <li>Mango</li>
         </ul>
       </section>
-      <section>
+
+      <!-- <section class="home font-size" id="home">
         <h1 id="place">Place i like most</h1>
-        <ul>
+        <ul id="chad">
           <li class="vhai">Sundarban</li>
           <li class="vhai">Kataban</li>
           <li class="vhai">bandarban</li>
           <li>salban</li>
         </ul>
-      </section>
+      </section> -->
     </main>
     <script src="js/dom.js"></script>
+    <script src="./js/styleinjs.js"></script>
+    <script src="./js/append.js"></script>
     <script>
       //   console.log("inside the html file ");
       //   console.log("Hellow DOM");
@@ -68,19 +71,19 @@
       //     for (const h1 of allHeading) {
       //       console.log(h1);
 
-      const places = document.getElementsByClassName("vhai");
-      //   console.log(places);
-      for (const place of places) {
-        // console.log(place.innerText); // innertext dakher jonno for - of use korte hbe
-      }
-      // queary selector
-      const fruitsTitle = document.getElementById("fruits-title");
-      fruitsTitle.innerText = "fruits changrds by java "; // ai vabe title chabge kora jay
-      const someli = document.querySelectorAll(".fruits-con li ");
-      console.log(someli);
-      for (const allLi of someli) {
-        console.log(allLi.innerText);
-      }
+      // const places = document.getElementsByClassName("vhai");
+      // //   console.log(places);
+      // for (const place of places) {
+      //   // console.log(place.innerText); // innertext dakher jonno for - of use korte hbe
+      // }
+      // // queary selector
+      // const fruitsTitle = document.getElementById("fruits-title");
+      // fruitsTitle.innerText = "fruits changrds by java "; // ai vabe title chabge kora jay
+      // const someli = document.querySelectorAll(".fruits-con li ");
+      // console.log(someli);
+      // for (const allLi of someli) {
+      //   console.log(allLi.innerText);
+      // }
     </script>
   </body>
 </html>

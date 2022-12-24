@@ -7,7 +7,7 @@
     <title>Practise</title>
   </head>
   <body>
-    <section>
+    <section class="innen" id="ndc">
       <h1 id="first">Vhai Dom niyq kisu kortasi</h1>
       <ul>
         <li class="vhai">Dhaka</li>
@@ -17,14 +17,16 @@
         <li>Khagrachhari</li>
       </ul>
     </section>
-    <section class="table">
-      <ul>
-        <li>Books</li>
+    <section class="table" id="table">
+      <ul class="neww" id="newww">
         <li>Phone</li>
         <li>Medicine</li>
         <li>Notebook</li>
         <li>Pen</li>
       </ul>
+    </section>
+    <section>
+      <h1 id="boss">hii this is boss</h1>
     </section>
     <script>
       //   const city = document.getElementsByClassName("vhai");
@@ -33,14 +35,28 @@
       //     console.log(li.innerText);
       //   }
 
-      const name = document.getElementById("first");
-      //   console.log(name.innerText);
-      const tableElement = document.querySelector(".table li  ");
+      //   }
 
-      console.log(tableElement);
+      //   const tableItems = document.querySelectorAll(".table li");
+      //   //   console.log(tableItems);
+      //   for (const li of tableItems) {
+      //     console.log(li.innerText);
+      //   }
+      //   const tableItems = document.querySelector(".table li");
+      //   //   console.log(tableItems);
+      //   for (const li of tableItems) {
+      //     console.log(li.innerText);
+      //   }
 
-      for (const quary of tableElement) {
-        console.log(quary.innerText);
+      // const div = document.getElementById("vhai");
+      // const text = div.innerText;
+      // const html = div.innerHTML;
+      // console.log(text);
+      // console.log(html);
+
+      const section = document.querySelectorAll("section");
+      for (const vhai of section) {
+        vhai.style.backgroundColor = "red";
       }
     </script>
   </body>

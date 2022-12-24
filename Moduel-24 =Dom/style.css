@@ -15,3 +15,12 @@ li {
 .fruits-con li {
   color: rgb(10, 228, 101);
 }
+
+.yellow {
+  /* ! background-color: yellowgreen !important; */
+  text-align: center;
+}
+
+.font-size {
+  font-size: 2px;
+}
