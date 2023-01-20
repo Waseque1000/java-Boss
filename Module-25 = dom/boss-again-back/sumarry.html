@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Final Dom</h1>
+    <h3 id="handeler-status">Default Text</h3>
+    <br /><br />
+    <button onclick="handleOnclick()    ">Add oncllick Function</button>
+    <button id="event-lisenter">Handle Event by addeventListener</button>
+    <script>
+      function handleOnclick(params) {
+        const handelerStatus = document.getElementById("handeler-status");
+        handelerStatus.innerText = "Boss is Back... ";
+      }
+
+      // final option
+      document
+        .getElementById("event-lisenter")
+        .addEventListener("click", function (params) {
+          const handelerStatus = document.getElementById("handeler-status");
+          handelerStatus.innerText = "Text updated by add Event Listner btn ";
+        });
+    </script>
+  </body>
+</html>
