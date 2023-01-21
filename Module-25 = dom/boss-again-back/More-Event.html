@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn">post</button> <br /><br />
+    <input id="input" type="text" />
+    <script>
+      //   document
+      //     .getElementById("input")
+      //     .addEventListener("focus", function (params) {
+      //       console.log("kire vhai taaka aidike ");
+      //     });
+      //   document
+      //     .getElementById("input")
+      //     .addEventListener("blur", function (params) {
+      //       console.log("ja mor hala  ");
+      //     });
+      document
+        .getElementById("input")
+        .addEventListener("keypress", function (makhon) {
+          console.log(makhon.target.value);
+        });
+    </script>
+  </body>
+</html>
