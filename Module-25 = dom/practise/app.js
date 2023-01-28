@@ -1,13 +1,14 @@
-document
-  .getElementById("post")
-  .addEventListener("click", function name(params) {
-    const commentBox = document.getElementById("area");
-    const comment = commentBox.value;
+document.getElementById("input").addEventListener("keyup", function name(boss) {
+  const text = boss.target.value;
+  const btn = document.getElementById("btn");
+  if (text === "4200") {
+    btn.removeAttribute("disabled");
+  } else {
+    btn.setAttribute("disabled", true);
+  }
+});
 
-    const commentarea = document.getElementById("p");
-    const p = document.createElement("p");
-    commentarea.appendChild(p);
-    p.innerText = comment;
-
-    commentBox.value = " ";
-  });
+document.getElementById("btn").addEventListener("click", function name(params) {
+  const hideText = document.getElementById("h");
+  hideText.style.display = "none";
+});
